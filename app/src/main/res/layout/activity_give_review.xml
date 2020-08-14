@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context=".GiveReview">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="50dp"
+            app:srcCompat="@drawable/review_title" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center_horizontal"
+            app:cardCornerRadius="20dp"
+            android:layout_marginBottom="4dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/teaching_staff" />
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="70dp"
+            android:background="@drawable/reviewshape"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:text="Teaching Staff"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/common_google_signin_btn_text_dark_default"
+                android:textStyle="normal|bold" />
+
+            <RatingBar
+                android:id="@+id/ratingBar1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:theme="@style/RatingBar"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="15dp"
+                android:numStars="5" />
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center_horizontal"
+            app:cardCornerRadius="20dp"
+            android:layout_marginBottom="4dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/edu_environment" />
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="70dp"
+            android:background="@drawable/reviewshape"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:text="Educational Environment"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/common_google_signin_btn_text_dark_default"
+                android:textStyle="normal|bold" />
+
+            <RatingBar
+                android:id="@+id/ratingBar2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:theme="@style/RatingBar"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="15dp"
+                android:numStars="5" />
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center_horizontal"
+            app:cardCornerRadius="20dp"
+            android:layout_marginBottom="4dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/edu_resources" />
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="70dp"
+            android:background="@drawable/reviewshape"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:text="Educational Resources"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/common_google_signin_btn_text_dark_default"
+                android:textStyle="normal|bold" />
+
+            <RatingBar
+                android:id="@+id/ratingBar3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:theme="@style/RatingBar"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="15dp"
+                android:numStars="5" />
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center_horizontal"
+            app:cardCornerRadius="20dp"
+            android:layout_marginBottom="4dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/library" />
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="70dp"
+            android:background="@drawable/reviewshape"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:text="Library Services"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/common_google_signin_btn_text_dark_default"
+                android:textStyle="normal|bold" />
+
+            <RatingBar
+                android:id="@+id/ratingBar4"
+                android:theme="@style/RatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="15dp"
+                android:numStars="5" />
+
+        </LinearLayout>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center_horizontal"
+            app:cardCornerRadius="20dp"
+            android:layout_marginBottom="4dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/college_infastructure" />
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="70dp"
+            android:background="@drawable/reviewshape"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:text="College Infrastructure"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/common_google_signin_btn_text_dark_default"
+                android:textStyle="normal|bold" />
+
+            <RatingBar
+                android:id="@+id/ratingBar5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:theme="@style/RatingBar"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="15dp"
+                android:numStars="5" />
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center_horizontal"
+            app:cardCornerRadius="20dp"
+            android:layout_marginBottom="4dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/placement_review" />
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="70dp"
+            android:background="@drawable/reviewshape"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:text="Placement Review"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/common_google_signin_btn_text_dark_default"
+                android:textStyle="normal|bold" />
+
+            <RatingBar
+                android:id="@+id/ratingBar6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:theme="@style/RatingBar"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="15dp"
+                android:numStars="5" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/centre_button"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_width="140dp"
+            android:layout_height="37dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="40dp"
+            android:text="Submit"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

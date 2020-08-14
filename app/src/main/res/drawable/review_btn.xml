@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- default -->
+    <item
+        android:state_pressed="false"
+        android:state_focused="false">
+        <shape
+            android:innerRadiusRatio="1"
+            android:shape="rectangle" >
+            <solid android:color="#D5D8DC" />
+
+            <padding
+                android:bottom="10dp"
+                android:left="10dp"
+                android:right="10dp"
+                android:top="10dp" />
+
+            <corners
+                android:topLeftRadius="50dip"
+                android:topRightRadius="0dip"
+                android:bottomLeftRadius="0dip"
+                android:bottomRightRadius="50dip">
+            </corners>
+
+        </shape>
+    </item>
+
+
+    <!-- button focused -->
+    <item
+        android:state_pressed="false"
+        android:state_focused="true">
+        <shape
+            android:innerRadiusRatio="1"
+            android:shape="rectangle" >
+            <solid android:color="#EAECEE" />
+
+            <padding
+                android:bottom="5dp"
+                android:left="10dp"
+                android:right="10dp"
+                android:top="5dp" />
+        </shape></item>
+
+    <!-- button pressed -->
+    <item
+        android:state_pressed="true"
+        android:state_focused="false">
+        <shape
+            android:innerRadiusRatio="1"
+            android:shape="rectangle" >
+
+            <gradient
+                android:angle="0"
+                android:centerColor="#06F5E3"
+                android:endColor="#3498DB"
+                android:startColor="#3498DB"
+                android:type="linear" />
+            <corners
+                android:topLeftRadius="50dip"
+                android:topRightRadius="0dip"
+                android:bottomLeftRadius="0dip"
+                android:bottomRightRadius="50dip">
+            </corners>
+            <padding
+                android:bottom="10dp"
+                android:left="10dp"
+                android:right="10dp"
+                android:top="10dp"/>
+        </shape></item>
+</selector>
+
+
+
+
+
+
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<selector xmlns:android="http://schemas.android.com/apk/res/android">-->
+    <!--&lt;!&ndash; default &ndash;&gt;-->
+    <!--<item-->
+        <!--android:state_pressed="false"-->
+        <!--android:state_focused="false">-->
+        <!--<shape-->
+            <!--android:innerRadiusRatio="1"-->
+            <!--android:shape="rectangle" >-->
+            <!--<solid android:color="#D5D8DC" />-->
+
+            <!--<padding-->
+                <!--android:bottom="10dp"-->
+                <!--android:left="10dp"-->
+                <!--android:right="10dp"-->
+                <!--android:top="10dp" />-->
+
+            <!--<corners-->
+                <!--android:topLeftRadius="50dip"-->
+                <!--android:topRightRadius="0dip"-->
+                <!--android:bottomLeftRadius="0dip"-->
+                <!--android:bottomRightRadius="50dip">-->
+            <!--</corners>-->
+
+        <!--</shape>-->
+    <!--</item>-->
+
+
+    <!--&lt;!&ndash; button focused &ndash;&gt;-->
+    <!--<item-->
+        <!--android:state_pressed="false"-->
+        <!--android:state_focused="true">-->
+        <!--<shape-->
+            <!--android:innerRadiusRatio="1"-->
+            <!--android:shape="rectangle" >-->
+            <!--<solid android:color="#EAECEE" />-->
+
+            <!--<padding-->
+                <!--android:bottom="5dp"-->
+                <!--android:left="10dp"-->
+                <!--android:right="10dp"-->
+                <!--android:top="5dp" />-->
+        <!--</shape></item>-->
+
+    <!--&lt;!&ndash; button pressed &ndash;&gt;-->
+    <!--<item-->
+        <!--android:state_pressed="true"-->
+        <!--android:state_focused="false">-->
+        <!--<shape-->
+            <!--android:innerRadiusRatio="1"-->
+            <!--android:shape="rectangle" >-->
+
+            <!--<gradient-->
+            <!--android:angle="0"-->
+            <!--android:centerColor="#06F5E3"-->
+            <!--android:endColor="#3498DB"-->
+            <!--android:startColor="#3498DB"-->
+            <!--android:type="linear" />-->
+            <!--<corners-->
+                <!--android:topLeftRadius="50dip"-->
+                <!--android:topRightRadius="0dip"-->
+                <!--android:bottomLeftRadius="0dip"-->
+                <!--android:bottomRightRadius="50dip">-->
+            <!--</corners>-->
+            <!--<padding-->
+                <!--android:bottom="10dp"-->
+                <!--android:left="10dp"-->
+                <!--android:right="10dp"-->
+                <!--android:top="10dp"/>-->
+        <!--</shape></item>-->
+<!--</selector>-->

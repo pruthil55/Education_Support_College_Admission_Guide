@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScholershipInformation">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#d8d8d8"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:background="#34495E"
+            android:gravity="center"
+            android:text="મુખ્યમંત્રી યુવા સ્વાવલંબન યોજના"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#ffffff"
+            android:gravity="start"
+            android:justificationMode="inter_word"
+            android:text="ગુજરાત માં આવેલ માન્ય બોર્ડ ની પરિક્ષા ધોરણ 12 ની સામાન્ય અથવા વિજ્ઞાન પ્રવાહ ની પરિક્ષા માં ૮૦ કે તેથી વધુ પર્સેન્ટાઇલ મેળવી સ્નાતક કક્ષાના અભ્યાસક્રમના પ્રથમ વર્ષ માં પ્રવેશ મેળવનાર વિદ્યાર્થીઓ ને લાભ મળશે.રૂપિયા ૬,૦૦,૦૦૦/- સુધીની કૌટુંબીક વાર્ષિક આવક ધરાવતા વાલીઓના સંતાનોને આ યોજના નો લાભ મળશે.ઇજનેરી/ટેકનોલોજી જેવા સ્નાતક કક્ષા ના સ્વનિર્ભર અભ્યાસક્રમો માટે વાર્ષિક ટ્યુશન ફી ની ૫૦% રકમ અથવા ૫૦,૦૦૦/- ની મર્યાદા મા મળવા પાત્ર છે.વધુ જાણકારી માટે :"
+            android:textAlignment="textStart"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/mysy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#ffffff"
+            android:clickable="true"
+            android:text="http://mysy.guj.nic.in"
+            android:textColor="#334EFF"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:background="#34495E"
+            android:gravity="center"
+            android:text="SC/ST કેટેગરીના વિદ્યાર્થીઓ માટે..."
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#ffffff"
+            android:gravity="start"
+            android:justificationMode="inter_word"
+            android:text="SC/ST કેટેગરીના તમામ વિદ્યાર્થીઓ કે જેમના પરિવારની વાર્ષિક આવક રૂ|. ૨,૫૦,૦૦૦/- થી ઓછી હોય તેમને સરકાર શ્રી દ્વારા ૧૦૦% ટ્યુશન ફી ની સ્કોલરશીપ દર વર્ષે આપવામાં આવે છે. તેના માટે વિદ્યાર્થીએ એડમિસન મળ્યા બાદ જો Freeship કાર્ડ કઢાવેલ હશે તો કોલેજ ખાતે કોઈ જ ટ્યુશન ફી ભરવાની રહેતી નથી અન્યથા કોલેજ ખાતે ટ્યુશન ફી ભર્યા બાદ જયારે સરકાર શ્રી દ્વારા સ્કોલરશીપ રકમ કોલેજને મળે ત્યારે કોલેજ સ્કોલરશીપ રકમ વિદ્યાર્થીને પરત આપે છે."
+            android:textAlignment="textStart"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:background="#34495E"
+            android:gravity="center"
+            android:text="SEBC/OBC કેટેગરીના વિદ્યાર્થીઓ માટે..."
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="30dp"
+            android:background="#ffffff"
+            android:gravity="start"
+            android:justificationMode="inter_word"
+            android:text="SEBC/OBC કેટેગરીની જ્ઞાતીના વિદ્યાર્થીઓ કે જેમના પરિવારની વાર્ષિક આવક રૂ|. ૨,૫૦,૦૦૦/- થી ઓછી હોય તેમને સરકાર શ્રી દ્વારા રૂ|. ૫૦,૦૦૦/- ની સ્કોલરશીપ દર વર્ષે આપવામાં આવે છે."
+            android:textAlignment="textStart"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="18dp" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+

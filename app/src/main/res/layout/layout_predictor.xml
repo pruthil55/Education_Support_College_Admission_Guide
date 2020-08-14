@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/loginCardForgotPassword"
+    android:layout_gravity="center"
+    android:layout_marginTop="@dimen/loginViewsMarginForgotPassword"
+    android:layout_marginBottom="@dimen/loginViewsMarginForgotPassword"
+    android:background="@color/whiteCardColorForgotPassword"
+    android:elevation="5dp"
+    app:cardCornerRadius="@dimen/loginCardRadiusForgotPassword">
+
+
+    <LinearLayout
+        style="@style/linearParentForgotPassword"
+        android:layout_gravity="center"
+        android:padding="@dimen/loginViewsMarginForgotPassword">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+        <TextView
+            style="@style/parentForgotPassword"
+            android:layout_marginTop="@dimen/loginViewsMarginForgotPassword"
+            android:text="ACPC rank will be calculated based on last year Admission-2019."
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDarkForgotPassword"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/et_pcm_marks"
+            style="@style/parentForgotPassword"
+            android:layout_marginTop="@dimen/loginViewsMarginForgotPassword">
+
+            <EditText
+                style="@style/modifiedEditTextForgotPassword"
+                android:hint="Board PCM Merit Marks (Out of 300)"
+                android:inputType="number"
+                android:maxLines="1" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/et_gujcet_marks"
+            style="@style/parentForgotPassword"
+            android:layout_marginTop="@dimen/loginViewsMarginForgotPassword">
+
+            <EditText
+                style="@style/modifiedEditTextForgotPassword"
+                android:hint="GUJCET Marks (Out of 120)"
+                android:inputType="number"
+                android:maxLines="1" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn_predict"
+            style="@style/loginButtonForgotPassword"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/loginViewsMarginForgotPassword"
+            android:text="Predict Merit" />
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

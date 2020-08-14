@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1f1f1d"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:id="@+id/first_line"
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/white_line" />
+
+        <View
+            android:id="@+id/second_line"
+            android:layout_width="20dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/first_line"
+            android:background="@drawable/red_line" />
+
+        <View
+            android:id="@+id/third_line"
+            android:layout_width="20dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/second_line"
+            android:background="@drawable/white_line" />
+
+        <View
+            android:id="@+id/fourth_line"
+            android:layout_width="20dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/third_line"
+            android:background="@drawable/red_line" />
+
+        <View
+            android:id="@+id/fifth_line"
+            android:layout_width="20dp"
+            android:layout_height="220dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/fourth_line"
+            android:background="@drawable/green_line" />
+
+        <View
+            android:id="@+id/sixth_line"
+            android:layout_width="20dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/fifth_line"
+            android:background="@drawable/white_line" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp">
+
+        <ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/application_logo" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp">
+
+            <TextView
+                android:id="@+id/tv_application_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Education Support"
+                android:textColor="#8A8585"
+                android:layout_marginBottom="50dp"
+                android:textSize="27sp"
+                app:fontFamily="cursive"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--tools:context=".MainActivity">-->
+
+
+    <!--<androidx.viewpager.widget.ViewPager-->
+        <!--android:id="@+id/pager_introduction"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_above="@+id/viewPagerCountDots" />-->
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/viewPagerCountDots"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/pager_height"-->
+        <!--android:layout_above="@+id/ll_footer"-->
+        <!--android:layout_marginBottom="12dp"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:gravity="center"-->
+        <!--android:orientation="horizontal" />-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:id="@+id/ll_footer"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btn_get_started"-->
+            <!--style="?android:attr/borderlessButtonStyle"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:background="@color/colorPrimary"-->
+            <!--android:text="@string/ob_get_started"-->
+            <!--android:textAllCaps="false"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:textSize="@dimen/button_text"-->
+            <!--android:visibility="gone"-->
+            <!--/>-->
+
+
+    <!--</LinearLayout>-->
+
+
+<!--</RelativeLayout>-->
+
+
+
+
+    <!--&lt;!&ndash;<?xml version="1.0" encoding="utf-8"?>&ndash;&gt;-->
+<!--&lt;!&ndash;<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"&ndash;&gt;-->
+    <!--&lt;!&ndash;xmlns:app="http://schemas.android.com/apk/res-auto"&ndash;&gt;-->
+    <!--&lt;!&ndash;xmlns:tools="http://schemas.android.com/tools"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:background="@drawable/background"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:orientation="vertical"&ndash;&gt;-->
+    <!--&lt;!&ndash;tools:context=".MainActivity">&ndash;&gt;-->
+
+
+    <!--&lt;!&ndash;<LinearLayout&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="100dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="100dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_gravity="center"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_marginLeft="150dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_marginTop="50dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_marginRight="150dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_marginBottom="20dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:gravity="center"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:orientation="vertical">&ndash;&gt;-->
+
+        <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/ivLogo"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_gravity="center"&ndash;&gt;-->
+            <!--&lt;!&ndash;tools:srcCompat="@drawable/logo" />&ndash;&gt;-->
+    <!--&lt;!&ndash;</LinearLayout>&ndash;&gt;-->
+
+    <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/tvLogoName"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="295dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_gravity="center"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_marginLeft="100dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_marginRight="100dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_marginBottom="70dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:gravity="center"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:text="Admission Mitra"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:textColor="@android:color/white"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:textSize="24sp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:textStyle="bold" />&ndash;&gt;-->
+
+    <!--&lt;!&ndash;<LinearLayout&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="350dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="300dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_gravity="center"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_marginLeft="20dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_marginRight="20dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_marginBottom="50dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:background="@drawable/shape_btn"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:orientation="vertical">&ndash;&gt;-->
+
+        <!--&lt;!&ndash;<ViewFlipper&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/viewFlipper"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="314dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="234dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_gravity="center"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_marginLeft="5dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_marginTop="33dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_marginRight="5dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:background="@drawable/shape_btn"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:inAnimation="@android:anim/slide_in_left"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:outAnimation="@android:anim/slide_out_right"></ViewFlipper>&ndash;&gt;-->
+
+    <!--&lt;!&ndash;</LinearLayout>&ndash;&gt;-->
+
+    <!--&lt;!&ndash;<Button&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/btnStart"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_gravity="bottom|center"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_marginLeft="100dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_marginRight="100dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:background="@drawable/buttonshape"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:gravity="center"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:shadowColor="#ffffff"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:text="START"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:textColor="#FFFFFF"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:textSize="18sp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:textStyle="bold" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;</LinearLayout>&ndash;&gt;-->

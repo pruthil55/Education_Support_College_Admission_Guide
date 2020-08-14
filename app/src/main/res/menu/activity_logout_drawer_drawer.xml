@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout" />
+        <item
+            android:id="@+id/nav_terms_and_condition"
+            android:icon="@drawable/ic_terms_and_condition"
+            android:title="Terms and Conditions" />
+        <item
+            android:id="@+id/nav_developer"
+            android:icon="@drawable/ic_developer_contact"
+            android:title="Developer Contact" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_feedback"
+                android:title="Feedback" />
+            <item
+                android:id="@+id/nav_rateThisApp"
+                android:icon="@drawable/ic_rate_this_app"
+                android:title="Rate Us" />
+        </menu>
+    </item>
+
+</menu>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<menu xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools">-->
+
+    <!--<group android:checkableBehavior="single">-->
+        <!--<item-->
+            <!--android:id="@+id/nav_profile"-->
+            <!--android:icon="@drawable/ic_menu_camera"-->
+            <!--android:title="Profile" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_terms_and_condition"-->
+            <!--android:icon="@drawable/ic_menu_gallery"-->
+            <!--android:title="Terms and Conditions" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_developer"-->
+            <!--android:icon="@drawable/ic_menu_slideshow"-->
+            <!--android:title="Developer" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_logout"-->
+            <!--android:icon="@drawable/ic_menu_manage"-->
+            <!--android:title="Logout" />-->
+    <!--</group>-->
+
+    <!--<item android:title="Communicate">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_share"-->
+                <!--android:icon="@drawable/ic_menu_share"-->
+                <!--android:title="@string/menu_share" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_feedback"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="Feedback" />-->
+        <!--</menu>-->
+    <!--</item>-->
+
+<!--</menu>-->

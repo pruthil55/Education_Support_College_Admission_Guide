@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Education Support</string>
+    <string name="title_activity_logout_drawer">LogoutActivityDrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+
+    <!-- OnBoard Screen. -->
+
+    <string name="ob_header1">EDUCATION SUPPORT</string>
+    <string name="ob_header2">ACPC INFORMATION</string>
+    <string name="ob_header3">SCHOLARSHIP INFORMATION</string>
+
+    <string name="ob_get_started">GET STARTED</string>
+
+    <string name="ob_desc1">Get information by Digital Platform...</string>
+    <string name="ob_desc2">Important instruction for admission in Degree Engg. for vacant seats...</string>
+    <string name="ob_desc3">The fastest route to get Scholership Information...</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
+ 

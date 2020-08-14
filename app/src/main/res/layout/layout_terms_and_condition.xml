@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/loginCardForgotPassword"
+    app:cardCornerRadius="20dp"
+    android:elevation="5dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    android:background="@color/whiteCardColorForgotPassword">
+
+
+
+    <LinearLayout
+        style="@style/linearParentForgotPassword"
+        android:layout_gravity="center"
+        android:padding="20dp">
+
+
+        <TextView
+            style="@style/parentForgotPassword"
+            android:textStyle="bold"
+            android:justificationMode="inter_word"
+            android:text="We have taken utmost care for accuracy of the data but students are advised to visit www.jacocldce.ac.in or respective college or university website for latest and accurate information.\n\nThis is not official app of ACPC. Purpose of creating this app is to help students for choosing best college and ranking of college.\n\nAccording to our algorithm only college students can give ratings and reviews of their college, So other students can have idea about quality of college as per rating given to various departments by their respective students."
+            android:textColor="@color/colorPrimaryDarkForgotPassword"
+            android:layout_marginTop="10dp"/>
+
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:orientation="vertical" android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+<!--</LinearLayout>-->

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:id="@+id/linear_layout"
+    android:clickable="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    android:background="@drawable/collegereviewback"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        app:cardCornerRadius="10dp">
+
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/tvCollegeName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="normal|bold"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"/>
+    </androidx.cardview.widget.CardView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="15dp"
+        android:orientation="horizontal">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="140dp"
+            android:layout_height="100dp"
+            android:paddingTop="10dp"
+            android:layout_gravity="center_horizontal"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/fui_bgAnonymous">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:drawableLeft="@drawable/star"
+                    android:drawablePadding="5dp"
+                    android:text="RATE"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvCollegeRating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="40sp"
+                    android:textStyle="normal|bold" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="140dp"
+            android:layout_margin="15dp"
+            android:layout_height="100dp"
+            android:paddingTop="10dp"
+            android:layout_gravity="center_horizontal"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:weightSum="0.3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/fui_bgFacebook"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:drawableLeft="@drawable/no_of_rater"
+                    android:drawablePadding="5dp"
+                    android:text="TOTAL RATES"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvNoOfCollegeRater"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="40sp"
+                    android:textStyle="normal|bold" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:drawableRight="@drawable/arrow"
+            android:fontFamily="@font/baloo"
+            android:padding="5dp"
+            android:drawablePadding="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="CHECK FIELD WISE RATING"
+            android:textSize="18sp"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>

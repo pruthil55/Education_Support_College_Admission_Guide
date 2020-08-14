@@ -1,0 +1,111 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:focusableInTouchMode="true"
+    android:layout_gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:src="@drawable/login_design_login_hero_image"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"/>
+
+    <TextView
+        style="@style/viewParentLoginDesign"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:text="Login"
+        android:textColor="@color/blackTextColorLoginDesign"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <ImageView
+        android:id="@+id/iv_back_button"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:src="@drawable/login_design_ic_login_button" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="7dp"
+        android:text="Provide your useful, constructive and precious feedback\nPlease be specific and honest."
+        android:textAlignment="center"
+        android:textColor="@color/blackTextColorLoginDesign"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="12"
+        android:gravity="center"
+        android:layout_marginTop="30dp">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="2dp"
+            android:background="#303F9F"
+            android:layout_weight="3"/>
+
+        <TextView
+            style="@style/viewParentLoginDesign.headerText.NoMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign In Methods"
+            android:layout_weight="6"
+            android:textSize="12sp"
+            android:textAlignment="center"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="2dp"
+            android:background="#303F9F"
+            android:layout_weight="3"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/iv_phone_login_button"
+            android:clickable="true"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/login_design_phone_button" />
+
+        <ImageView
+            android:id="@+id/iv_google_login_button"
+            android:clickable="true"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:src="@drawable/login_design_google_button" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.loginfbgooglenumber">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!--<uses-permission android:name="android.permission.CALL_PHONE" />-->
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/application_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/application_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AcpcRankPredictor"></activity>
+        <activity android:name=".DeveloperActivity" />
+        <activity android:name=".TermsAndConditionActivity" />
+        <activity android:name=".VerifyPhoneActivity" />
+        <activity
+            android:name=".ForgotPassword"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".animation"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".ImportantWebsite"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ScholershipInformation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ViewBooks"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ViewRanking"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ViewRankingImage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LogoutActivityDrawer"
+            android:label="@string/title_activity_logout_drawer"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ViewDetailsRating"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ViewFieldRating"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ViewCollegeRating"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="ocr" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".GiveReview"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GiveCollegeRating"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginActivity2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6355413549810381~3757418319" />
+    </application>
+
+</manifest>

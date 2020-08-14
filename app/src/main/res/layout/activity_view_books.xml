@@ -1,0 +1,1333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewBooks">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#D7DBDD"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:drawableLeft="@drawable/ic_book_black_24dp"
+            android:background="@drawable/shape6"
+            android:gravity="center"
+            android:text="MATHS  BOOKS"
+            android:textColor="@android:color/background_light"
+            android:textStyle="normal|bold" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="50dp"
+            android:background="#D7DBDD">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/shape3">
+
+                <LinearLayout
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="10dp"
+
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/shape2"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="170dp"
+                        android:background="@drawable/shape1"
+                        android:paddingTop="5dp"
+                        app:srcCompat="@drawable/img11" />
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="MATHAMATICS-1"
+                        android:textColor="#000000"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <Button
+
+                        android:id="@+id/btn11"
+                        android:layout_width="140dp"
+                        android:layout_height="37dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/shape"
+                        android:text="CHECK"
+                        android:textColor="#3498DB"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="10dp"
+
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/shape2"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="170dp"
+                        android:background="@drawable/shape1"
+                        android:paddingTop="5dp"
+                        app:srcCompat="@drawable/img12" />
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="Engineering Mathamatics"
+                        android:textColor="#000000"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <Button
+
+                        android:id="@+id/btn12"
+                        android:layout_width="140dp"
+                        android:layout_height="37dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/shape"
+                        android:text="CHECK"
+                        android:textColor="#3498DB"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="10dp"
+
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/shape2"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="170dp"
+                        android:background="@drawable/shape1"
+                        android:paddingTop="5dp"
+                        app:srcCompat="@drawable/img13" />
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="ENGINEERING MATHAMATICS"
+                        android:textColor="#000000"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <Button
+
+                        android:layout_width="140dp"
+                        android:layout_height="37dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/shape"
+                        android:text="CHECK"
+                        android:id="@+id/btn13"
+                        android:textColor="#3498DB"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="10dp"
+
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/shape2"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="170dp"
+                        android:background="@drawable/shape1"
+                        android:paddingTop="5dp"
+                        app:srcCompat="@drawable/img14" />
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="Engineering Mathamatics-1"
+                        android:textColor="#000000"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <Button
+
+                        android:layout_width="140dp"
+                        android:layout_height="37dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/shape"
+                        android:text="CHECK"
+                        android:id="@+id/btn14"
+                        android:textColor="#3498DB"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="10dp"
+
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/shape2"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="170dp"
+                        android:background="@drawable/shape1"
+                        android:paddingTop="5dp"
+                        app:srcCompat="@drawable/img15" />
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="MATHS 1"
+                        android:textColor="#000000"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <Button
+
+                        android:layout_width="140dp"
+                        android:layout_height="37dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/shape"
+                        android:text="CHECK"
+                        android:id="@+id/btn15"
+                        android:textColor="#3498DB"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="10dp"
+
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/shape2"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="170dp"
+                        android:background="@drawable/shape1"
+                        android:paddingTop="5dp"
+                        app:srcCompat="@drawable/img16" />
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="Engineering Mathamatics-2"
+                        android:textColor="#000000"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <Button
+
+                        android:layout_width="140dp"
+                        android:id="@+id/btn16"
+                        android:layout_height="37dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/shape"
+                        android:text="CHECK"
+
+                        android:textColor="#3498DB"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:drawableLeft="@drawable/ic_book_black_24dp"
+            android:background="@drawable/shape6"
+            android:gravity="center"
+            android:text="C LANGUAGE BOOKS"
+            android:textColor="@android:color/background_light"
+            android:textStyle="normal|bold" />
+
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="50dp"
+            android:background="#D7DBDD">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/shape3">
+
+                <LinearLayout
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="10dp"
+
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/shape2"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="170dp"
+                        android:background="@drawable/shape1"
+                        android:paddingTop="5dp"
+                        app:srcCompat="@drawable/img21" />
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="ANCI C"
+                        android:textColor="#000000"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/btn21"
+                        android:layout_width="140dp"
+                        android:layout_height="37dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/shape"
+                        android:text="CHECK"
+
+                        android:textColor="#3498DB"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="10dp"
+
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/shape2"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="170dp"
+                        android:background="@drawable/shape1"
+                        android:paddingTop="5dp"
+                        app:srcCompat="@drawable/img22" />
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="C programming Language"
+                        android:textColor="#000000"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <Button
+
+                        android:layout_width="140dp"
+                        android:layout_height="37dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/shape"
+                        android:text="CHECK"
+                        android:id="@+id/btn22"
+                        android:textColor="#3498DB"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="10dp"
+
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/shape2"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="170dp"
+                        android:background="@drawable/shape1"
+                        android:paddingTop="5dp"
+                        app:srcCompat="@drawable/img23" />
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="LetUs C"
+                        android:textColor="#000000"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <Button
+
+                        android:layout_width="140dp"
+                        android:layout_height="37dp"
+                        android:id="@+id/btn23"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/shape"
+                        android:text="CHECK"
+
+                        android:textColor="#3498DB"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+                <LinearLayout
+
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="10dp"
+
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/shape2"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="170dp"
+                        android:background="@drawable/shape1"
+                        android:paddingTop="5dp"
+                        app:srcCompat="@drawable/img24" />
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="C fundamental and programming"
+                        android:textColor="#000000"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <Button
+
+                        android:layout_width="140dp"
+                        android:layout_height="37dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:id="@+id/btn24"
+                        android:background="@drawable/shape"
+                        android:text="CHECK"
+
+                        android:textColor="#3498DB"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="10dp"
+
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/shape2"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="170dp"
+                        android:background="@drawable/shape1"
+                        android:paddingTop="5dp"
+                        app:srcCompat="@drawable/img25" />
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="programming in C"
+                        android:textColor="#000000"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <Button
+
+                        android:id="@+id/btn25"
+                        android:layout_width="140dp"
+                        android:layout_height="37dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/shape"
+                        android:text="CHECK"
+
+                        android:textColor="#3498DB"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+        <TextView
+
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape6"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:drawableLeft="@drawable/ic_book_black_24dp"
+            android:text="C++ LANGUAGE BOOKS"
+            android:textColor="@android:color/background_light"
+            android:textStyle="normal|bold" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="50dp"
+            android:background="#D7DBDD">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/shape3">
+
+                <LinearLayout
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="10dp"
+
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/shape2"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="170dp"
+                        android:background="@drawable/shape1"
+                        android:paddingTop="5dp"
+                        app:srcCompat="@drawable/img31" />
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="Balagurusami for c++"
+                        android:textColor="#000000"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <Button
+
+                        android:layout_width="140dp"
+                        android:id="@+id/btn31"
+                        android:layout_height="37dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/shape"
+                        android:text="CHECK"
+
+                        android:textColor="#3498DB"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="10dp"
+
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/shape2"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="170dp"
+                        android:background="@drawable/shape1"
+                        android:paddingTop="5dp"
+                        app:srcCompat="@drawable/img32" />
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="problem solving with c++"
+                        android:textColor="#000000"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <Button
+
+                        android:layout_width="140dp"
+                        android:layout_height="37dp"
+                        android:id="@+id/btn32"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/shape"
+                        android:text="CHECK"
+
+                        android:textColor="#3498DB"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+                <LinearLayout
+
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="10dp"
+
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/shape2"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="170dp"
+                        android:background="@drawable/shape1"
+                        android:paddingTop="5dp"
+                        app:srcCompat="@drawable/img33" />
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="The c++ programming language"
+                        android:textColor="#000000"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <Button
+
+                        android:layout_width="140dp"
+                        android:layout_height="37dp"
+                        android:id="@+id/btn33"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/shape"
+                        android:text="CHECK"
+
+                        android:textColor="#3498DB"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+                <LinearLayout
+
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="10dp"
+
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/shape2"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="170dp"
+                        android:background="@drawable/shape1"
+                        android:paddingTop="5dp"
+                        app:srcCompat="@drawable/img34" />
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="c++ programming Basics"
+                        android:textColor="#000000"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <Button
+
+                        android:layout_width="140dp"
+                        android:layout_height="37dp"
+                        android:id="@+id/btn34"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/shape"
+                        android:text="CHECK"
+
+                        android:textColor="#3498DB"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+                <LinearLayout
+
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="10dp"
+
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/shape2"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="170dp"
+                        android:background="@drawable/shape1"
+                        android:paddingTop="5dp"
+                        app:srcCompat="@drawable/img35" />
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="let US c++"
+                        android:textColor="#000000"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <Button
+
+                        android:layout_width="140dp"
+                        android:layout_height="37dp"
+                        android:id="@+id/btn35"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/shape"
+                        android:text="CHECK"
+
+                        android:textColor="#3498DB"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+                <LinearLayout
+
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="10dp"
+
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/shape2"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="170dp"
+                        android:background="@drawable/shape1"
+                        android:paddingTop="5dp"
+                        app:srcCompat="@drawable/img36" />
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="c++ for Beginners"
+                        android:textColor="#000000"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <Button
+
+                        android:layout_width="140dp"
+                        android:layout_height="37dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:id="@+id/btn36"
+                        android:background="@drawable/shape"
+                        android:text="CHECK"
+
+                        android:textColor="#3498DB"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape6"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:drawableLeft="@drawable/ic_book_black_24dp"
+            android:text="ELECTRICAL BOOKS"
+            android:textColor="@android:color/background_light"
+            android:textStyle="normal|bold" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="50dp"
+            android:background="#D7DBDD">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/shape3">
+
+                <LinearLayout
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="10dp"
+
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/shape2"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="170dp"
+                        android:background="@drawable/shape1"
+                        android:paddingTop="5dp"
+                        app:srcCompat="@drawable/img41" />
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="Basic Electrcal Engineering"
+                        android:textColor="#000000"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <Button
+
+                        android:layout_width="140dp"
+                        android:layout_height="37dp"
+                        android:id="@+id/btn41"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/shape"
+                        android:text="CHECK"
+
+                        android:textColor="#3498DB"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="10dp"
+
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/shape2"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="170dp"
+                        android:background="@drawable/shape1"
+                        android:paddingTop="5dp"
+                        app:srcCompat="@drawable/img42" />
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="Basic Electrical Engineering"
+                        android:textColor="#000000"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <Button
+
+                        android:layout_width="140dp"
+                        android:layout_height="37dp"
+                        android:id="@+id/btn42"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/shape"
+                        android:text="CHECK"
+
+                        android:textColor="#3498DB"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+                <LinearLayout
+
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="10dp"
+
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/shape2"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="170dp"
+                        android:background="@drawable/shape1"
+                        android:paddingTop="5dp"
+                        app:srcCompat="@drawable/img43" />
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="Basics Of Electrical Eng."
+                        android:textColor="#000000"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <Button
+
+                        android:layout_width="140dp"
+                        android:layout_height="37dp"
+                        android:id="@+id/btn43"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/shape"
+                        android:text="CHECK"
+
+                        android:textColor="#3498DB"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+                <LinearLayout
+
+
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="10dp"
+
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/shape2"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="170dp"
+                        android:background="@drawable/shape1"
+                        android:paddingTop="5dp"
+                        app:srcCompat="@drawable/img44" />
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="Basics Electrical Eng."
+                        android:textColor="#000000"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <Button
+
+                        android:layout_width="140dp"
+                        android:layout_height="37dp"
+                        android:id="@+id/btn44"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/shape"
+                        android:text="CHECK"
+
+                        android:textColor="#3498DB"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:drawableLeft="@drawable/ic_book_black_24dp"
+            android:background="@drawable/shape6"
+            android:gravity="center"
+            android:text="ENVIRONMENT BOOKS"
+            android:textColor="@android:color/background_light"
+            android:textStyle="normal|bold" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="50dp"
+            android:background="#D7DBDD">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/shape3">
+
+                <LinearLayout
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="10dp"
+
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/shape2"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="170dp"
+                        android:background="@drawable/shape1"
+                        android:paddingTop="5dp"
+                        app:srcCompat="@drawable/img51" />
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="Environmental Enginnering"
+                        android:textColor="#000000"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <Button
+
+                        android:layout_width="140dp"
+                        android:layout_height="37dp"
+                        android:id="@+id/btn51"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/shape"
+                        android:text="CHECK"
+
+                        android:textColor="#3498DB"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="10dp"
+
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/shape2"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="170dp"
+                        android:background="@drawable/shape1"
+                        android:paddingTop="5dp"
+                        app:srcCompat="@drawable/img52" />
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="Environmental Eng."
+                        android:textColor="#000000"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <Button
+
+                        android:layout_width="140dp"
+                        android:layout_height="37dp"
+                        android:id="@+id/btn52"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/shape"
+                        android:text="CHECK"
+
+                        android:textColor="#3498DB"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+                <LinearLayout
+
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="10dp"
+
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/shape2"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="170dp"
+                        android:background="@drawable/shape1"
+                        android:paddingTop="5dp"
+                        app:srcCompat="@drawable/img53" />
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="TextBook of Environmental Eng."
+                        android:textColor="#000000"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <Button
+
+                        android:layout_width="140dp"
+                        android:layout_height="37dp"
+                        android:id="@+id/btn53"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/shape"
+                        android:text="CHECK"
+
+                        android:textColor="#3498DB"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+                <LinearLayout
+
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="10dp"
+
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/shape2"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="170dp"
+                        android:background="@drawable/shape1"
+                        android:paddingTop="5dp"
+                        app:srcCompat="@drawable/img54" />
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="Element of Environmental Eng."
+                        android:textColor="#000000"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <Button
+
+                        android:layout_width="140dp"
+                        android:layout_height="37dp"
+                        android:id="@+id/btn54"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/shape"
+                        android:text="CHECK"
+
+                        android:textColor="#3498DB"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+</ScrollView>

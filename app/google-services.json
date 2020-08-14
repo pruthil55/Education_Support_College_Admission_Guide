@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "589200199370",
+    "firebase_url": "https://login-fb-number.firebaseio.com",
+    "project_id": "login-fb--number",
+    "storage_bucket": "login-fb--number.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589200199370:android:abf6c2514598f093",
+        "android_client_info": {
+          "package_name": "com.example.loginfbgooglenumber"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589200199370-liv7sicth009dter3dlck68jmjbg8907.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.loginfbgooglenumber",
+            "certificate_hash": "b322d53221ff72a002055aca3bc0095d5015dcbd"
+          }
+        },
+        {
+          "client_id": "589200199370-gvgre1pifuvsnifb9aj36c79m26uqbqr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.loginfbgooglenumber",
+            "certificate_hash": "abf0b922428874fc12b384b5123f57fa01670009"
+          }
+        },
+        {
+          "client_id": "589200199370-mha0pp3gq3ink4fbq1svgq6tm2aa5hsn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdfRhB9IgGxhRqcRX6d4GXPTcVhMII6wo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "589200199370-mha0pp3gq3ink4fbq1svgq6tm2aa5hsn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589200199370:android:6485c8534298b1dd3b2e33",
+        "android_client_info": {
+          "package_name": "education.support.loginfbgooglenumber"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589200199370-mpmpkeghmf1rog09c9g6q20pvonicnid.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "education.support.loginfbgooglenumber",
+            "certificate_hash": "abf0b922428874fc12b384b5123f57fa01670009"
+          }
+        },
+        {
+          "client_id": "589200199370-mha0pp3gq3ink4fbq1svgq6tm2aa5hsn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdfRhB9IgGxhRqcRX6d4GXPTcVhMII6wo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "589200199370-mha0pp3gq3ink4fbq1svgq6tm2aa5hsn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
