@@ -2,7 +2,13 @@
 <b>Get the latest Admission Guide and College rating.</b><br>
 The best and suitable mobile application for students and career seekers.This application(Top Engineering college rating & ACPC ranking 2020) guide students by providing latest updates on admission notifications, some study materials for college students and college ratings of different sections of management. Newer miss out latest admission alerts if you have install this application.
 
-<a href="https://play.google.com/store/apps/details?id=education.support.loginfbgooglenumber" target="_blank"><img src="https://camo.githubusercontent.com/59c5c810fc8363f8488c3a36fc78f89990d13e99/68747470733a2f2f706c61792e676f6f676c652e636f6d2f696e746c2f656e5f75732f6261646765732f696d616765732f67656e657269632f656e5f62616467655f7765625f67656e657269632e706e67" width="250px" height="100px"></a>
+<div align="center">
+    <img src="/screenshots/screenshot 1.png" width="150px" height="300pxs"/>
+    <img src="/screenshots/screenshot 2.png" width="150px" height="300pxs"/>
+    <img src="/screenshots/screenshot 3.png" width="150px" height="300pxs"/>
+    <img src="/screenshots/screenshot 4.png" width="150px" height="300pxs"/>
+    <img src="/screenshots/screenshot 5.png" width="150px" height="300pxs"/>
+</div>
 
 <h3>Features</h3>
 This is application(Top Engineering college rating & ACPC ranking 2020) is useful for HSC students, college students and teachers.
@@ -48,6 +54,4 @@ ex. MYSY, food bill sahay and many more....
 
 
 Download and Share this app(Top Engineering college rating & ACPC ranking 2020 || Education Support) for get latest admission alerts and helps other students.
-
-<a href="https://play.google.com/store/apps/details?id=education.support.loginfbgooglenumber" target="_blank"><img src="https://camo.githubusercontent.com/59c5c810fc8363f8488c3a36fc78f89990d13e99/68747470733a2f2f706c61792e676f6f676c652e636f6d2f696e746c2f656e5f75732f6261646765732f696d616765732f67656e657269632f656e5f62616467655f7765625f67656e657269632e706e67" width="250px" height="100px"></a>
 
